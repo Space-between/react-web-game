@@ -19,6 +19,8 @@ const Games = () => {
           &nbsp;
           <Link to="/game/Minesweeper">지뢰찾기</Link>
           &nbsp;
+          <Link to="/game/Response">반응속도</Link>
+          &nbsp;
           <Link to="/game/index">게임 매쳐</Link>{/* /game/index두개단어이기만 하면 된다. /game/뒤에는 아무 단어나 넣으면 된다. */}
         </div>
         <div>

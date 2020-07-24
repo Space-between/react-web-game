@@ -2,7 +2,7 @@
 
 It is a web game made with React JS.
 
-/*주소*/
+https://space-between.github.io/react-web-game/
 
 
 Stacks

@@ -5,8 +5,9 @@ import Lotto from './Playlist/Lotto';
 import Gugudan from './Playlist/GuGuDan';
 import Minesweeper from './Playlist/MineSearch';
 import Ending from './Playlist/WordRelayClass';
+import Response from './Playlist/ResponseCheckClass';
 
-export default class GameMatcher extends Component {
+class GameMatcher extends Component {
     render() {
         let urlSearchParmas = new URLSearchParams(this.props.location.search.slice(1));//라우트에서 받아오는 것이다. this.props안에 history객체가 있는데 this.props안에 있는 history객체는 내부적으로 브라우저에 있는 history객체를 사용하고 있다.
         console.log(urlSearchParmas.get('hello'));
@@ -22,6 +23,8 @@ export default class GameMatcher extends Component {
             return <Ending />
         } else if (this.props.match.params.name === 'Minesweeper') {
             return <Minesweeper />
+        } else if (this.props.match.params.name === 'Response') {
+            return <Response />
         } 
         return (
             <div>
@@ -30,3 +33,5 @@ export default class GameMatcher extends Component {
         );
     }
 }
+
+export default GameMatcher;
