@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import NumberBaseball from './Playlist/NumberBaseballFunction';
-import RSP from './Playlist/RSPClass';
-import Lotto from './Playlist/Lotto';
+import RSP from './Playlist/RSPFunction';
+import Lotto from './Playlist/LottoFunction';
 import Gugudan from './Playlist/GuGuDan';
 import Minesweeper from './Playlist/MineSearch';
-import Ending from './Playlist/WordRelayClass';
-import Response from './Playlist/ResponseCheckClass';
+import Ending from './Playlist/WordRelayFunction';
+import Response from './Playlist/ResponseCheckFunction';
 
 class GameMatcher extends Component {
     render() {
@@ -25,7 +25,8 @@ class GameMatcher extends Component {
             return <Minesweeper />
         } else if (this.props.match.params.name === 'Response') {
             return <Response />
-        } 
+        }
+        
         return (
             <div>
                 일치하는 게임이 없습니다.
