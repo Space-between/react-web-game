@@ -4,7 +4,7 @@ https://space-between.github.io/react-web-game/
 
 
 
-## Introduce
+## Description
 
     It is a web game made with React. A total of 7 games have been created with React, from relatively simple games such as end-to-end to complex games such as minesweeping and number baseball.
 
