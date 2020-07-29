@@ -11,7 +11,7 @@ https://space-between.github.io/react-web-game/
 
 ## Feature
 
-    - This is the first React project to introduce React-Hooks, which uses a function to operate a state without using a class.
+    - This is the first React project to introduce React-Hooks, which uses functions without using classes in React and changes the state.
 
 
 ## Tech Stack
