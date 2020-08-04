@@ -1,5 +1,5 @@
 {
-  "name": "react-web-game",
+  "name": "webgame-contact",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -35,5 +35,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "https://space-between.github.io/react-web-game/"
+  "homepage": "https://space-between.github.io/webgame-contact/"
 }

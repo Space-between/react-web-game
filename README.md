@@ -1,6 +1,6 @@
 # Web Game + Contact
 
-https://space-between.github.io/react-web-game/
+https://space-between.github.io/webgame-contact/
 
 
 
@@ -27,4 +27,4 @@ https://space-between.github.io/react-web-game/
 
     email: xodyd1756@gmail.com
 
-    
+
