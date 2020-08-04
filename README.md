@@ -1,4 +1,4 @@
-# React Web Game + Contact
+# React Web Game + React Contact
 
 https://space-between.github.io/webgame-contact/
 
