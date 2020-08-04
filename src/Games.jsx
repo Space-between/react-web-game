@@ -7,9 +7,11 @@ const Games = () => {
   return (
       <HashRouter>
         <div>
-          <Link to="/game/number-baseball">숫자야구</Link>
+          <Link to="/game/Contact">주소록</Link>
           &nbsp;
-          <Link to="/game/rock-scissors-paper">가위바위보</Link>
+          <Link to="/game/Minesweeper">지뢰찾기</Link>
+          &nbsp;
+          <Link to="/game/Response">반응속도</Link>
           &nbsp;
           <Link to="/game/lotto-generator">로또생성기</Link>
           &nbsp;
@@ -17,11 +19,10 @@ const Games = () => {
           &nbsp;
           <Link to="/game/Ending">끝말잇기</Link>
           &nbsp;
-          <Link to="/game/Minesweeper">지뢰찾기</Link>
+          <Link to="/game/number-baseball">숫자야구</Link>
           &nbsp;
-          <Link to="/game/Response">반응속도</Link>
-          &nbsp;
-          <Link to="/game/index">게임 매쳐</Link>{/* /game/index두개단어이기만 하면 된다. /game/뒤에는 아무 단어나 넣으면 된다. */}
+          <Link to="/game/rock-scissors-paper">가위바위보</Link>
+         {/* /game/index두개단어이기만 하면 된다. /game/뒤에는 아무 단어나 넣으면 된다. */}
         </div>
         <div>
           <Route path="/game/:name" component={GameMatcher} /> {/* 라우트들이 너무 늘어나면 문제가 되기 때문에 효율적으로 라우트 갯수를 관리할 수 있는 동적 라우트 매칭 */}

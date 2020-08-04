@@ -6,6 +6,7 @@ import Gugudan from './Playlist/GuGuDan';
 import Minesweeper from './Playlist/MineSearch';
 import Ending from './Playlist/WordRelayFunction';
 import Response from './Playlist/ResponseCheckFunction';
+import Contact from './Contact/Contact';
 
 class GameMatcher extends Component {
     render() {
@@ -25,11 +26,13 @@ class GameMatcher extends Component {
             return <Minesweeper />
         } else if (this.props.match.params.name === 'Response') {
             return <Response />
+        } else if (this.props.match.params.name === 'Contact') {
+            return <Contact />
         }
         
         return (
             <div>
-                일치하는 게임이 없습니다.
+                주소록을 보시려면 주소록, 게임을 하시려면 게임을 선택해 주세요.
             </div>
         );
     }

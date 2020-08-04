@@ -1,4 +1,4 @@
-# React Web Game
+# Web Game + Contact
 
 https://space-between.github.io/react-web-game/
 
@@ -6,7 +6,7 @@ https://space-between.github.io/react-web-game/
 
 ## Description
 
-    It is a web game made with React. A total of 7 games have been created with React, from relatively simple games such as end-to-end to complex games such as minesweeping and number baseball.
+    A web game and address book created with React. I made a reacted address book that has the ability to add, modify, and remove a total of 7 games and contacts, including Word Chain, Lotto Generator, Minesweeper, and Number Baseball Game.
 
 
 ## Feature
