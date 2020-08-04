@@ -6,7 +6,7 @@ https://space-between.github.io/react-web-game/
 
 ## Description
 
-    A web game and address book created with React. I made a reacted address book that has the ability to add, modify, and remove a total of 7 games and contacts, including Word Chain, Lotto Generator, Minesweeper, and Number Baseball Game.
+    A web game and contact created with React. I made a contact that has the ability to add, modify, and remove 7 games and phone numbers, including Word Relay, lotto generator, mine search, and number baseball game.
 
 
 ## Feature
